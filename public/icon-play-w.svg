@@ -1,0 +1,18 @@
+<svg width="179" height="178" viewBox="0 0 179 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1212_2)">
+<ellipse cx="89.8912" cy="89.0005" rx="39.0203" ry="39" fill="white"/>
+<path d="M128.411 89.0005C128.411 110.263 111.166 127.5 89.8912 127.5C68.6167 127.5 51.3708 110.263 51.3708 89.0005C51.3708 67.7378 68.6167 50.5005 89.8912 50.5005C111.166 50.5005 128.411 67.7378 128.411 89.0005Z" stroke="white"/>
+</g>
+<path d="M82.554 77.1671V102.834L102.731 90.0005L82.554 77.1671Z" fill="black"/>
+<defs>
+<filter id="filter0_d_1212_2" x="0.87085" y="0.000488281" width="178.041" height="178" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="25"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1212_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1212_2" result="shape"/>
+</filter>
+</defs>
+</svg>
