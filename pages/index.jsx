@@ -131,7 +131,7 @@ export default function Home() {
       <div className="py-48 px-10 bg-transparent text-center relative overflow-hidden">
 
 
-        <h2 className="mx-auto max-w-md text-center font-bold text-4xl text-black leading-[40px]">Our hills and valleys are like nothing you've seen.</h2>
+        <h2 className="mx-auto max-w-md text-center font-bold text-4xl text-black leading-[40px]">Our hills and valleys are like nothing you&apos;ve seen.</h2>
         <p className="mx-auto text-base sm:text-lg max-w-md font-normal text-gray-400 my-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <ButtonPrimary text="Learn More" />
         <span className="absolute block -z-10 sm:top-0 -top-40 left-0 ">
@@ -143,7 +143,7 @@ export default function Home() {
       </div>
 
       <div className="px-8 py-[111px] bg-[#010A20] bg-opacity-60 before:bg-cover before:bg-right relative before:content-[''] before:absolute before:inset-0 before:block before:-z-20  before:bg-[url('/bg-section-video.png')]" id='about'>
-        <h2 className="mx-auto sm:max-w-4xl max-w-xs leading-[46px] text-center font-bold text-[40px] mb-20 text-white ">Live a life like you wouldn't imagine, experience a life you wouldn't expect.</h2>
+        <h2 className="mx-auto sm:max-w-4xl max-w-xs leading-[46px] text-center font-bold text-[40px] mb-20 text-white ">Live a life like you wouldn&apos;t imagine, experience a life you wouldn&apos;t expect.</h2>
         <div className={`relative text-center mx-auto h-full mb-10`}>
           <Image src="/video-image-3.png" width={830} height={467} />
           <span className="absolute right-1/2 translate-x-1/2 bottom-1/2 translate-y-1/2 cursor-pointer ">
@@ -181,41 +181,41 @@ export default function Home() {
         <h2 className="mx-auto sm:max-w-4xl max-w-xs leading-[46px] text-center font-bold text-[40px] mb-5 text-black ">Photo Gallery</h2>
         <p className="text-base text-center sm:text-sm font-normal max-w-xs mx-auto text-gray-500 mb-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, mollitia!</p>
         <div className="mx-auto max-w-4xl grid grid-cols-2 grid-rows-3 sm:grid-rows-2 sm:grid-cols-3  grid-flow-cols items-start gap-4">
-          <div class="w-full h-full row-span-2 order-1 sm:order-1">
+          <div className="w-full h-full row-span-2 order-1 sm:order-1">
             <img
               src="/image-6.png"
               alt=""
-              class="inset-0 h-full w-full object-cover object-center rounded-xl " />
+              className="inset-0 h-full w-full object-cover object-center rounded-xl " />
           </div>
-          <div class="h-full w-full order-2 sm:order-2">
+          <div className="h-full w-full order-2 sm:order-2">
             <img
               src="/image-4.png"
               alt=""
-              class="inset-0 h-full w-full object-cover object-center rounded-xl " />
+              className="inset-0 h-full w-full object-cover object-center rounded-xl " />
           </div>
-          <div class="w-full h-full row-span-2 order-3 sm:order-4">
+          <div className="w-full h-full row-span-2 order-3 sm:order-4">
             <img
               src="/image-3.png"
               alt=""
-              class="inset-0 h-full w-full object-cover object-center rounded-xl " />
+              className="inset-0 h-full w-full object-cover object-center rounded-xl " />
           </div>
-          <div class="w-full h-full order-4 sm:order-4 sm:row-span-1 row-span-1">
+          <div className="w-full h-full order-4 sm:order-4 sm:row-span-1 row-span-1">
             <img
               src="/image-5.png"
               alt=""
-              class="inset-0 h-full w-full object-cover object-center rounded-xl " />
+              className="inset-0 h-full w-full object-cover object-center rounded-xl " />
           </div>
-          <div class="w-full h-full sm:row-span-2 row-span-1 order-5 sm:order-2">
+          <div className="w-full h-full sm:row-span-2 row-span-1 order-5 sm:order-2">
             <img
               src="/image-2.png"
               alt=""
-              class="inset-0 h-full w-full object-cover object-center rounded-xl " />
+              className="inset-0 h-full w-full object-cover object-center rounded-xl " />
           </div>
-          <div class="w-full h-full order-6 sm:order-6">
+          <div className="w-full h-full order-6 sm:order-6">
             <img
               src="/image-1.png"
               alt=""
-              class="inset-0 h-full w-full object-cover object-center rounded-xl " />
+              className="inset-0 h-full w-full object-cover object-center rounded-xl " />
           </div>
         </div>
         {/* <div className="grid grid-cols-2 grid-rows-10 grid-flow-col">
@@ -287,7 +287,7 @@ export default function Home() {
       <div className="flex flex-col relative sm:flex-row justify-center sm:justify-between items-center bg-[#010A20] py-7 px-24">
         <Link href="#destination">
           <span className="text-2xl cursor-pointer sm:mx-0 sm:mb-0 mx-auto  text-white text-center w-14 h-14 rounded-full absolute -top-6 sm:right-8 right-0  font-bold leading-[100%]  bg-[#DD2242] after:content-[''] after:absolute after:inset-0 z-10 flex items-center justify-center">
-            <img src="/arrow-up.png" alt="" srcset="" />
+            <img src="/arrow-up.png" alt="" srcSet="" />
           </span>
         </Link>
         <span className="sm:mr-auto mr-0 mt-20 sm:mt-0"><Image src="/explore-indonesia-logo.png" alt="me" width="145" height="48px" /></span>
