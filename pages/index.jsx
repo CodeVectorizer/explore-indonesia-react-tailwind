@@ -19,7 +19,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 export default function Home() {
   return (
-    <div className='scroll-smooth hover:scroll-auto'>
+    <div className='scroll-smooth hover:scroll-auto' id='home'>
       <div className='after:content-[""] after:absolute after:inset-0 relative block bg-[url("/bg-hero.png")] after:bg-gradient-to-t after:from-black after:to-gray-900 after:opacity-30 z-10 after:-z-20 bg-cover bg-center'>
         {/* Mobile Nav */}
         <div className='px-[30px] py-8 flex items-center mx-auto max-w-7xl sm:max-w-full'>
@@ -32,8 +32,12 @@ export default function Home() {
             <Link href="#experience">
               <a href="#" className="text-xs mx-6 uppercase font-bold text-white">Experience</a>
             </Link>
-            <a href="#" className="text-xs mx-6 uppercase font-bold text-white">About</a>
-            <a href="#" className="text-xs mx-6 uppercase font-bold text-white">Gallery</a>
+            <Link href="#about">
+              <a href="#" className="text-xs mx-6 uppercase font-bold text-white">About</a>
+            </Link>
+            <Link href="#gallery">
+              <a href="#" className="text-xs mx-6 uppercase font-bold text-white">Gallery</a>
+            </Link>
           </div>
           <span className="mr-7 cursor-pointer"><Image src="/search.svg" alt="me" width="24" height="24" /></span>
           <span className='cursor-pointer'><Image src="/menu.svg" alt="me" width="24" height="24" /></span>
@@ -138,7 +142,7 @@ export default function Home() {
         </span>
       </div>
 
-      <div className="px-8 py-[111px] bg-[#010A20] bg-opacity-60 before:bg-cover before:bg-right relative before:content-[''] before:absolute before:inset-0 before:block before:-z-20  before:bg-[url('/bg-section-video.png')]" id='experience'>
+      <div className="px-8 py-[111px] bg-[#010A20] bg-opacity-60 before:bg-cover before:bg-right relative before:content-[''] before:absolute before:inset-0 before:block before:-z-20  before:bg-[url('/bg-section-video.png')]" id='about'>
         <h2 className="mx-auto sm:max-w-4xl max-w-xs leading-[46px] text-center font-bold text-[40px] mb-20 text-white ">Live a life like you wouldn't imagine, experience a life you wouldn't expect.</h2>
         <div className={`relative text-center mx-auto h-full mb-10`}>
           <Image src="/video-image-3.png" width={830} height={467} />
@@ -173,7 +177,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="px-8 py-[111px]">
+      <div className="px-8 py-[111px]" id='gallery'>
         <h2 className="mx-auto sm:max-w-4xl max-w-xs leading-[46px] text-center font-bold text-[40px] mb-5 text-black ">Photo Gallery</h2>
         <p className="text-base text-center sm:text-sm font-normal max-w-xs mx-auto text-gray-500 mb-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, mollitia!</p>
         <div className="mx-auto max-w-4xl grid grid-cols-2 grid-rows-3 sm:grid-rows-2 sm:grid-cols-3  grid-flow-cols items-start gap-4">
@@ -287,15 +291,21 @@ export default function Home() {
           </span>
         </Link>
         <span className="sm:mr-auto mr-0 mt-20 sm:mt-0"><Image src="/explore-indonesia-logo.png" alt="me" width="145" height="48px" /></span>
+
         <div className="flex flex-col sm:flex-row items-center sm:mr-auto mr-0">
+
           <Link href="#destination">
             <a href="#" className="text-xs sm:my-0 my-2 mx-6 font-bold text-white">Destination</a>
           </Link>
           <Link href="#experience">
             <a href="#" className="text-xs sm:my-0 my-2 mx-6 font-bold text-white">Experience</a>
           </Link>
-          <a href="#" className="text-xs sm:my-0 my-2 mx-6 font-bold text-white">About</a>
-          <a href="#" className="text-xs sm:my-0 my-2 mx-6 font-bold text-white">Gallery</a>
+          <Link href="#about">
+            <a href="#" className="text-xs sm:my-0 my-2 mx-6 font-bold text-white">About</a>
+          </Link>
+          <Link href="#gallery">
+            <a href="#" className="text-xs sm:my-0 my-2 mx-6 font-bold text-white">Gallery</a>
+          </Link>
         </div>
         <div className="flex flex-row sm:my-0 my-2  items-center">
           <span>
